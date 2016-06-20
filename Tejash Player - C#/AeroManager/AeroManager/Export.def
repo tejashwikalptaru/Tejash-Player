@@ -1,0 +1,5 @@
+LIBRARY "AEROMANAGER"
+EXPORTS
+	InitAeroManager @1
+	SetAeroColor @2
+	Restore @3

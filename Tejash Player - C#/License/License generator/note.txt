@@ -1,0 +1,5 @@
+After generating license key with generator, add a + and TKTWMS in the last of key
+For example, if generated key is
+6666-3434-343434-34-343434
+then valid key will be 
+6666-3434-343434-34-343434+TKTWMS

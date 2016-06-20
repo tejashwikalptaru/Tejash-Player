@@ -1,0 +1,2 @@
+D:\Projects\C#\Tejash Player 2014\License\Managed License checker DLL\TechTejash\obj\Release\TechTejash.vbprojResolveAssemblyReference.cache
+D:\Projects\C#\Tejash Player 2014\License\Managed License checker DLL\TechTejash\obj\Release\TechTejash.vbproj.GenerateResource.Cache

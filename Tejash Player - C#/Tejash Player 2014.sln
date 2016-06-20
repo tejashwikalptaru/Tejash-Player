@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tejash Player 2014", "Tejash Player 2014\Tejash Player 2014.csproj", "{B933E15F-80D7-4795-A5B0-32291F59C052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Debug|x64.ActiveCfg = Debug|x64
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Debug|x64.Build.0 = Debug|x64
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Debug|x86.ActiveCfg = Debug|x86
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Debug|x86.Build.0 = Debug|x86
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Release|x64.ActiveCfg = Release|x64
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Release|x64.Build.0 = Release|x64
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Release|x86.ActiveCfg = Release|x86
+		{B933E15F-80D7-4795-A5B0-32291F59C052}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

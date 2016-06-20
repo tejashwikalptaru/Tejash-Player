@@ -1,0 +1,4 @@
+LIBRARY	"Engine"
+DESCRIPTION "Tejash Player Engine - Tejashwi Kalp Taru"
+EXPORTS
+	StartEngine @1
