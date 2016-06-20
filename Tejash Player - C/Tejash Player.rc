@@ -1,0 +1,398 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 271, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tejash Player"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,194,63,72,12
+    CONTROL         "Mute",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,147,48,27,12
+    PUSHBUTTON      "Play",IDC_BUTTON1,6,61,36,16
+    PUSHBUTTON      "Pause",IDC_BUTTON2,49,61,37,16
+    PUSHBUTTON      "Stop",IDC_BUTTON3,96,61,36,16
+    EDITTEXT        IDC_EDIT1,7,10,148,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      ">>",IDC_BUTTON4,158,10,17,12
+    PUSHBUTTON      "|<-",IDC_BUTTON6,136,61,16,14
+    PUSHBUTTON      "->|",IDC_BUTTON7,159,61,16,14
+    CONTROL         "Loop Track",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,49,47,9
+    CONTROL         "3D Effect",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,50,43,8
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,4,24,176,12
+    LTEXT           "0:00",DEF_TIME,8,36,19,11
+    LTEXT           "0:00",TRACK_TIME,162,36,19,11
+    GROUPBOX        "Tejash Player 4.3",IDC_STATIC,0,0,186,78
+    CONTROL         121,ID_VIS,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,201,8,61,53
+    GROUPBOX        "",IDC_STATIC,189,0,82,78
+    CONTROL         "Loop All",IDC_LOOPALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,58,50,38,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 296, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "About Tejash Player"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,6,74,282,136
+    LTEXT           "",IDC_ABOUT_TEXT,15,83,262,115
+    LTEXT           "www.tejashwi.com",IDC_WEBSITE,113,199,65,8
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 154, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sound DX 8 Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",20,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,19,17,13,46
+    CONTROL         "",21,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,51,17,14,46
+    CONTROL         "",22,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,81,17,14,46
+    CONTROL         "",23,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,112,17,13,46
+    GROUPBOX        "DX8 Settings",IDC_STATIC,7,7,137,77
+    LTEXT           "    125Hz      1Hz         8Hz       Reverb",IDC_STATIC,11,70,123,12
+    PUSHBUTTON      "Reset Effects",IDC_RESET,12,90,126,12
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 223, 46
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Record Voice"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        13,5,5,65,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "",15,5,18,65,8,SS_CENTERIMAGE
+    CONTROL         "",14,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,27,65,9
+    PUSHBUTTON      "Record",10,75,5,60,13
+    CTEXT           "",20,75,22,140,12,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "Play",11,140,5,35,13,WS_DISABLED
+    PUSHBUTTON      "Save",12,180,5,35,13,WS_DISABLED
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 190, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tejash Player Net Radio"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Presets",-1,5,2,175,45
+    PUSHBUTTON      "Radio Paradise",10,9,12,53,15
+    PUSHBUTTON      "Radio TeenTal",11,9,30,52,15
+    PUSHBUTTON      "Desi Music Mix",12,69,12,50,15
+    GROUPBOX        "Custom",-1,5,50,175,28
+    EDITTEXT        20,10,60,135,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "open",21,150,60,25,12
+    GROUPBOX        "Currently playing",-1,5,81,175,57
+    CTEXT           "",30,10,91,165,16,SS_NOPREFIX
+    CTEXT           "not playing",31,10,109,165,16,SS_NOPREFIX
+    CTEXT           "",32,10,127,165,8,SS_NOPREFIX
+    GROUPBOX        "Proxy server",-1,5,141,175,40
+    EDITTEXT        40,10,151,165,12,ES_AUTOHSCROLL
+    LTEXT           "[user:pass@]server:port",-1,93,167,80,8
+    CONTROL         "Direct connection",41,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,167,72,10
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,23,182,138,12
+    LTEXT           "Vol -",-1,6,184,18,13
+    LTEXT           "Vol +",-1,163,184,18,13
+    PUSHBUTTON      "Radio City",13,69,30,50,15
+    PUSHBUTTON      "Desi Radio",14,126,12,50,15
+    PUSHBUTTON      "Radio NRI",15,126,30,50,15
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 394, 297
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Playlist [ Double click to play, Right click to remove track ]"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Playlist Editor Options:",IDC_STATIC,7,264,380,26
+    PUSHBUTTON      "Add Song",IDC_BUTTON1,7,274,87,16
+    PUSHBUTTON      "Add a folder or drive",IDC_BUTTON2,101,274,87,16
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,380,256
+    PUSHBUTTON      "Goto Current Track",IDC_BUTTON3,301,274,86,16
+    CONTROL         "Show last add first",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,276,72,12
+END
+
+IDD_DIALOG7 DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG8 DIALOGEX 0, 0, 167, 37
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Goto Track"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TRACK,68,4,92,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Enter Track No.:",IDC_STATIC,11,6,55,13
+    DEFPUSHBUTTON   "Play",ID_TRACK_GO,4,22,50,14
+    PUSHBUTTON      "Open Location of Track",ID_TRACK_GO2,75,22,88,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        OPEN_FRM_MENU
+        MENUITEM "Play from Folder or drive",   OPEN
+        MENUITEM "Play by Track Number",        ID_GOTO_TRACK
+        MENUITEM "Create Playlist",             ID_CREATE_PLAY
+        MENUITEM "Play form playlist",          ID_OPEN_PLAY
+        MENUITEM "View Playlist",               VIEW_PLAYLIST
+        MENUITEM "Exit",                        EXIT
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Minimize to tray",            ID_TOOLS_MINIMIZETOTRAY
+        MENUITEM "Play Online Radio",           PLAY_ONLINE
+        MENUITEM "Record Voice",                ID_RECORD
+        MENUITEM "Open Track Location",         ID_OPTIONS_OPENTRACKLOCATION
+        MENUITEM "Sound Settings [DX8]",        ID_FX
+        POPUP "Visualizations"
+        BEGIN
+            MENUITEM "OFF",                         ID_VIS_OFF
+            MENUITEM "Album Art",                   ID_ALBUM_ART
+            MENUITEM "Blaze",                       ID_VIS_BLAZE
+            MENUITEM "Arota",                       ID_VIS_AROTA
+            MENUITEM "MeterX",                      ID_VIS_METERX
+            MENUITEM "Full Screen Effects",         ID_VIS_FULL
+        END
+        POPUP "Skins"
+        BEGIN
+            MENUITEM "OFF",                         ID_SKINS_OFF
+            MENUITEM "Glow",                        ID_SKINS_GLOW
+            MENUITEM "V-Touch",                     ID_SKINS_V
+            MENUITEM "Jarilo",                      ID_SKINS_JARILO
+            MENUITEM "Transilvania",                ID_SKINS_TRANSILVANIA
+            MENUITEM "Indigo",                      ID_SKINS_INDIGO
+            MENUITEM "Zippo",                       ID_SKINS_ZIPPO
+            MENUITEM "Sleek Alpha",                 ID_SKINS_MACOS
+            MENUITEM "Accent",                      ID_SKINS_ACCENT
+            MENUITEM "Moose",                       ID_SKINS_MOOSE
+            MENUITEM "Devoir",                      ID_SKINS_DEVOIR
+        END
+        POPUP "Settings"
+        BEGIN
+            MENUITEM "Remember Track",              ID_REMEMBER_TRACKREMEMBERON, CHECKED
+            MENUITEM "Remember Volume",             ID_REMEMBER_VOLUMEREMEMBERON, CHECKED
+            MENUITEM "Notify About Current Track",  ID_SETTINGS_NOTIFYABOUTCURRENTTRACK, CHECKED
+        END
+    END
+    POPUP "About"
+    BEGIN
+        MENUITEM "About Player",                ABOUT_PLAYER
+        MENUITEM "Check for Updates",           ID_UPDATE_CHECK
+        MENUITEM "What's New",                  ID_CHANGES
+        MENUITEM "Report bug/suggetions",       ID_ABOUT_REPORTBUG
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "resource\\logo.bmp"
+IDB_BITMAP2             BITMAP                  "resource\\create-beats-girl.bmp"
+IDB_BITMAP3             BITMAP                  "resource\\no_art.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "resource\\icon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 133
+//
+
+IDR_TEXTFILE1           133                     "support_files\\Changes.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,3,0,0
+ PRODUCTVERSION 4,3,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Tejash Player x12 The Bazoomba"
+            VALUE "CompanyName", "Tech Tejash"
+            VALUE "FileDescription", "Tejash Player"
+            VALUE "FileVersion", "4, 3, 0, 0"
+            VALUE "InternalName", "Tejash Player.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2012 Tech Tejash and Tejashwi Kalp Taru"
+            VALUE "LegalTrademarks", "Tech Tejash"
+            VALUE "OriginalFilename", "Tejash Player"
+            VALUE "ProductName", "Tejash Player"
+            VALUE "ProductVersion", "4, 3, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

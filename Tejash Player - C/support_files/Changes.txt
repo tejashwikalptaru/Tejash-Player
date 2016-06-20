@@ -1,0 +1,18 @@
+Tejash Player : A powerful yet simple audio player for Windows.
+Developer : Tejashwi Kalp Taru [India]
+            B.Tech [ Computer Science Engineering ]
+            support@tejashwi.com
+            http://www.tejashwi.com 
+Version : X12.3 [ Codename : Bazoomba ]
+Tejash Player v4.3
+
+New :
+1. Full Screen Visualizations retouched.
+
+Fixes :
+1. Track record missing fixed.
+2. Fix unknown [Not present] track playing.
+
+
+To know more about player please visit our website
+Copyright © 2012 Tejashwi Kalp Taru
