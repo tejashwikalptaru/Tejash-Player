@@ -83,7 +83,7 @@ char* TejashPlayerHash(char *key)
 	//put the length
 	nt_buffer[14] = length << 4;
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	// Custom hash calculation customized for Tejash Player 1024 bit encryption
+	// Custom hash calculation
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	unsigned int a = INIT_A;
 	unsigned int b = INIT_B;
