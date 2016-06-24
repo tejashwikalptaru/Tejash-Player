@@ -52,7 +52,7 @@ if(isset($_POST["find_key"]))
 	if(!empty($in))
 	{
 		$username = "tejasbpd_tplayer";
-		$password = "kronos1991";
+		$password = "";
 		$hostname = "localhost";
 		$dbname	  = "tejasbpd_tp_keys";
 
@@ -104,7 +104,7 @@ if(isset($_POST["find_key"]))
 function check_existing_key($find)
 {
 		/*($username = "tejasbpd_tplayer";
-		$password = "kronos1991";
+		$password = "";
 		$hostname = "localhost";
 		$dbname	  = "tejasbpd_tp_keys";
 
@@ -138,7 +138,7 @@ function check_existing_key($find)
 function write_to_db($file)
 {
 	$username = "tejasbpd_tplayer";
-	$password = "kronos1991";
+	$password = "";
 	$hostname = "localhost";
 	$dbname	  = "tejasbpd_tp_keys";
 
@@ -221,7 +221,7 @@ if(isset($_POST["single_key"])){
 	if(!empty($key))
 	{
 		$username = "tejasbpd_tplayer";
-		$password = "kronos1991";
+		$password = "";
 		$hostname = "localhost";
 		$dbname	  = "tejasbpd_tp_keys";
 
