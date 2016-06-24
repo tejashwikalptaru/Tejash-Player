@@ -10,7 +10,7 @@ if(isset($_GET["find_key"]))
 	if(!empty($in))
 	{
 		$username = "tejasbpd_tplayer";
-		$password = "kronos1991";
+		$password = "";
 		$hostname = "localhost";
 		$dbname	  = "tejasbpd_tp_keys";
 
